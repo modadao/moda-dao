@@ -22,18 +22,11 @@ See [example.env](./example.env) for more examples.
 
 If using a different port for the local development server, the proxy url needs to be updated in the package.json file.
 
-## Running the server api
+
+## Running the dAPP
 
 ```bash
-cd server
-yarn install
-yarn start
-```
-
-## Running the client app
-
-```bash
-cd client
+cp .example.env .env
 yarn install
 yarn start
 ```
